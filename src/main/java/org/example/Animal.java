@@ -2,10 +2,10 @@ package org.example;
 
 public class Animal {
 
-    //ATRIBUTOS
-    Integer edad;
+    //ATRIBUTOS (o variable tipadas)
+    protected Integer edad;
     String nombre;
-    String especie;
+    private String especie;
     Double peso;
     Double estatura;
     String colorPredominante;
@@ -14,7 +14,7 @@ public class Animal {
     String dieta;
     String clasificacion; //Domestico o Salvaje
 
-    //METODOS ESPECIALES
+    //METODOS ESPECIALES ( o funciones ESPECIALES ORDINARIOS)
 
     public Animal() {
     }
